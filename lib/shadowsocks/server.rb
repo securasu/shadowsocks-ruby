@@ -23,7 +23,7 @@
 require 'rubygems'
 require 'eventmachine'
 require 'json'
-require './encrypt'
+require 'encrypt'
 
 cfg_file = File.open('config.json')
 config = JSON.parse(cfg_file.read)

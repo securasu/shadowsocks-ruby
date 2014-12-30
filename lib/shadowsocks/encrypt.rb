@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 require "digest"
-require "./merge_sort"
+require "merge_sort"
 
 def get_table (key)
   table = Array.new(256, 0)
